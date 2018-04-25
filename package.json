@@ -6,6 +6,10 @@
     "react-scripts": "0.9.5"
   },
   "dependencies": {
+    "body-parser": "^1.18.2",
+    "dotenv": "^5.0.1",
+    "express": "^4.16.3",
+    "mongoose": "^5.0.16",
     "react": "^15.4.2",
     "react-dom": "^15.4.2",
     "react-router-dom": "^4.0.0"
@@ -15,5 +19,14 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
-  }
+  },
+  "description": "For today's lab you will be building a stock tracking app. The lab will be broken down into two parts...   1. Build a React app that uses `react-router`   2. Communicate with 3rd-party APIs",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://git.generalassemb.ly/atl-wdi/react-router-lab.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }

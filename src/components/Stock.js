@@ -6,12 +6,12 @@ import React, { Component } from 'react'
 // flex-direction: row`
 class Stock extends Component {
   render() {
-    var stock = this.props.stocks.find((stock) => stock.symbol === this.props.match.params.symbol)
+    var stock = this.props.stocks.find((stock) => stock.name === this.props.match.params.name)
     return (
         
       <div>
           {/* <stockContiner> */}
-        <h2>{stock.name} ({stock.symbol})</h2>
+        <h2>{stock.name}</h2>
         <ul>
           <li>Current Price: {stock.lastPrice}</li>
           <li>Change: {stock.change}</li>
